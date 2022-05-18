@@ -27,4 +27,4 @@
 </details>
 
 ## Ссылка на сайт:
-https://ia-stepanov.github.io/how-to-learn/
+https://ia-stepanov.github.io/test-zecurion/
