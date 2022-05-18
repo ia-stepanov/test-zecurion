@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zecurion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="indicators">
+      <div class="indicators__content">
+        <p class="indicators__title">Всего инцидентов</p>
+        <div class="indicators__subtitles">
+          <p class="indicators__numbers">1576</p>
+          <div class="indicators__percents">
+            <div class="indicators__triangle-up-red"></div>
+            <p class="indicators__percent">+16%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicators__content">
+        <p class="indicators__title">Высокая важность</p>
+        <div class="indicators__subtitles">
+          <p class="indicators__numbers indicators__color-red">157</p>
+          <div class="indicators__percents">
+            <div class="indicators__triangle-up-red"></div>
+            <p class="indicators__percent">+8%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicators__content">
+        <p class="indicators__title">Средняя важность</p>
+        <div class="indicators__subtitles">
+          <p class="indicators__numbers indicators__color-orange">253</p>
+          <div class="indicators__percents">
+            <div class="indicators__triangle-up-red"></div>
+            <p class="indicators__percent">+3%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicators__content">
+        <p class="indicators__title">Всего связей</p>
+        <div class="indicators__subtitles">
+          <p class="indicators__numbers">88</p>
+          <div class="indicators__percents">
+            <div class="indicators__triangle-up-black"></div>
+            <p class="indicators__percent">+2%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicators__content">
+        <p class="indicators__title">Исходящий трафик</p>
+        <div class="indicators__subtitles">
+          <p class="indicators__numbers">653 МБ</p>
+          <div class="indicators__percents">
+            <div class="indicators__triangle-down-black"></div>
+            <p class="indicators__percent">-8%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicators__content">
+        <p class="indicators__title">Входящий трафик</p>
+        <div class="indicators__subtitles">
+          <p class="indicators__numbers">476 МБ</p>
+          <div class="indicators__percents">
+            <div class="indicators__triangle-up-black"></div>
+            <p class="indicators__percent">+16%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="data">
+      <div class="data__content">
+        <p class="data__title">Данные не обнаружены</p>
+      </div>
+    </section>
+
+    <section class="summary-data">
+      <div class="summary-data__content">
+        <p class="summary-data__title">ПОЛЬЗОВАТЕЛИ ПО ИНЦИДЕНТАМ</p>
+        <ul class="summary-data__list">
+          <li class="summary-data__header">
+            <p class="summary-data__name">Пользователь</p>
+            <p class="summary-data__name">Инциденты</p>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-title">Андрей Иванов</p>
+            <div class="summary-data__values">
+              <p class="summary-data__value">
+                50<span class="dot dot__color-red"></span>
+              </p>
+              <p class="summary-data__value">
+                18<span class="dot dot__color-orange"></span>
+              </p>
+              <p class="summary-data__value">
+                31<span class="dot dot__color-green"></span>
+              </p>
+            </div>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-title">Михаил Вешкин</p>
+            <div class="summary-data__values">
+              <p class="summary-data__value">
+                47<span class="dot dot__color-red"></span>
+              </p>
+              <p class="summary-data__value">
+                24<span class="dot dot__color-orange"></span>
+              </p>
+              <p class="summary-data__value">
+                0<span class="dot-stroke dot-stroke__color-green"></span>
+              </p>
+            </div>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-title">Семен Измайлов</p>
+            <div class="summary-data__values">
+              <p class="summary-data__value">
+                32<span class="dot dot__color-red"></span>
+              </p>
+              <p class="summary-data__value">
+                0<span class="dot-stroke dot-stroke__color-orange"></span>
+              </p>
+              <p class="summary-data__value">
+                12<span class="dot dot__color-green"></span>
+              </p>
+            </div>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-title">Николай Островский</p>
+            <div class="summary-data__values">
+              <p class="summary-data__value">
+                11<span class="dot dot__color-red"></span>
+              </p>
+              <p class="summary-data__value">
+                7<span class="dot dot__color-orange"></span>
+              </p>
+              <p class="summary-data__value">
+                0<span class="dot-stroke dot-stroke__color-green"></span>
+              </p>
+            </div>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-title">
+              Константин Константинопальский
+            </p>
+            <div class="summary-data__values">
+              <p class="summary-data__value">
+                0<span class="dot-stroke dot-stroke__color-red"></span>
+              </p>
+              <p class="summary-data__value">
+                0<span class="dot-stroke dot-stroke__color-orange"></span>
+              </p>
+              <p class="summary-data__value">
+                8<span class="dot dot__color-green"></span>
+              </p>
+            </div>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-title">Александр Овчинников</p>
+            <div class="summary-data__values">
+              <p class="summary-data__value">
+                0<span class="dot-stroke dot-stroke__color-red"></span>
+              </p>
+              <p class="summary-data__value">
+                13<span class="dot dot__color-orange"></span>
+              </p>
+              <p class="summary-data__value">
+                7<span class="dot dot__color-green"></span>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="summary-data__content">
+        <p class="summary-data__title">Категории сайтов</p>
+        <ul class="summary-data__list">
+          <li class="summary-data__header">
+            <p class="summary-data__name">Категория</p>
+            <p class="summary-data__name">Количество инцидентов</p>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-title">Поисковики</p>
+            <div class="summary-data__values">
+              <p class="summary-data__value">1 257</p>
+              <div class="summary-data__percents">
+                <div class="summary-data__triangle-up-red"></div>
+                <p class="summary-data__percent">+3%</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-title">Новостные порталы</p>
+            <div class="summary-data__values">
+              <p class="summary-data__value">1 129</p>
+              <div class="summary-data__percents">
+                <div class="summary-data__triangle-down-green"></div>
+                <p class="summary-data__percent">-2.1%</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-title">Развлекательные</p>
+            <div class="summary-data__values">
+              <p class="summary-data__value">987</p>
+              <div class="summary-data__percents">
+                <div class="summary-data__triangle-up-red"></div>
+                <p class="summary-data__percent">+7%</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-title">
+              Категория с длинным названием, которое обрезается по ширине...
+            </p>
+            <div class="summary-data__values">
+              <p class="summary-data__value">596</p>
+              <div class="summary-data__percents">
+                <div class="summary-data__triangle-down-green"></div>
+                <p class="summary-data__percent">-3%</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-title">Игры</p>
+            <div class="summary-data__values">
+              <p class="summary-data__value">431</p>
+              <div class="summary-data__percents">
+                <div class="summary-data__triangle-up-red"></div>
+                <p class="summary-data__percent">+1%</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-title">Форумы</p>
+            <div class="summary-data__values">
+              <p class="summary-data__value">147</p>
+              <div class="summary-data__percents">
+                <div class="summary-data__triangle-up-red"></div>
+                <p class="summary-data__percent">+2%</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="summary-data__content">
+        <p class="summary-data__title">Дисциплина</p>
+        <ul class="summary-data__list">
+          <li class="summary-data__header">
+            <p class="summary-data__descr-name">Дата</p>
+            <p class="summary-data__descr-name">Приход</p>
+            <p class="summary-data__descr-name">Уход</p>
+            <p class="summary-data__descr-name">Рабочее время</p>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-value">20.04</p>
+            <p class="summary-data__descr-value">
+              08:07
+              <span class="summary-data__type-fs summary-data__type-color-red"
+                >+7мин</span
+              >
+            </p>
+            <p class="summary-data__descr-value">
+              16:55
+              <span class="summary-data__type-fs summary-data__type-color-red"
+                >-5мин</span
+              >
+            </p>
+            <p class="summary-data__descr-value summary-data__type-color-red">
+              07:48
+            </p>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-value">19.04</p>
+            <p class="summary-data__descr-value">
+              07:56
+              <span class="summary-data__type-fs summary-data__type-color-green"
+                >-4мин</span
+              >
+            </p>
+            <p class="summary-data__descr-value">
+              16:56
+              <span class="summary-data__type-fs summary-data__type-color-red"
+                >+4мин</span
+              >
+            </p>
+            <p class="summary-data__descr-value summary-data__type-color-green">
+              08:00
+            </p>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-value">18.04</p>
+            <p class="summary-data__descr-value">
+              09:30
+              <span class="summary-data__type-fs summary-data__type-color-red"
+                >+1ч 30мин</span
+              >
+            </p>
+            <p class="summary-data__descr-value">
+              18:30
+              <span class="summary-data__type-fs summary-data__type-color-green"
+                >+1ч 30мин</span
+              >
+            </p>
+            <p class="summary-data__descr-value summary-data__type-color-green">
+              08:00
+            </p>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-value">17.04</p>
+            <p class="summary-data__descr-value">
+              08:47
+              <span class="summary-data__type-fs summary-data__type-color-red"
+                >+47мин</span
+              >
+            </p>
+            <p class="summary-data__descr-value">
+              17:47
+              <span class="summary-data__type-fs summary-data__type-color-green"
+                >+47мин</span
+              >
+            </p>
+            <p class="summary-data__descr-value summary-data__type-color-green">
+              08:00
+            </p>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-value">16.04</p>
+            <p class="summary-data__descr-value">
+              08:12
+              <span class="summary-data__type-fs summary-data__type-color-red"
+                >+12мин</span
+              >
+            </p>
+            <p class="summary-data__descr-value">
+              16:55
+              <span class="summary-data__type-fs summary-data__type-color-red"
+                >-5мин</span
+              >
+            </p>
+            <p class="summary-data__descr-value summary-data__type-color-red">
+              07:43
+            </p>
+          </li>
+
+          <li class="summary-data__descr">
+            <p class="summary-data__descr-value">14.04</p>
+            <p class="summary-data__descr-value">
+              08:00 <span class="summary-data__type-fs">—</span>
+            </p>
+            <p class="summary-data__descr-value">
+              16:57
+              <span class="summary-data__type-fs summary-data__type-color-red"
+                >-3мин</span
+              >
+            </p>
+            <p class="summary-data__descr-value summary-data__type-color-red">
+              07:57
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
